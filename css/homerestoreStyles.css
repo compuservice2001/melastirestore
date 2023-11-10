@@ -1,0 +1,170 @@
+/****************************CONTACT STYLES STYLES HTML START HERE***********************/
+:root{
+    /*--colorPrimary: #727376;*/
+	--colorPrimary: #373839;
+	--colorSecondary: #3CBEBE;
+    --colorTerciario: #08969B;
+    --grisbackground: #CECBC5;
+    --greenBold: #0a5a5d;
+}
+.contactBanner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/houseinterior.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactBannerAbout{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/Melasti/20201031_091130.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleService{
+    width: 250px;
+    height: 50px;
+    background: #00000087;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleService h1{
+    color: white;
+}
+.servicesIntro{
+    width: 100%;
+    height: max-content;
+    background: rgb(234, 234, 234);
+    padding: 80px;
+}
+.servicesSection{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: space-around;
+}
+.servicesContent{
+    min-width: 45%;
+    margin-top: 25px;
+}
+.servicesSection hr{
+    display: block;
+    background-color: #e43a47;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+.servicesSection .homePicture{
+    width: 100%;
+    height: 342px;
+}
+.servicesSection .homePicture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.serviceSidebar{
+    margin: 20px;
+    min-width: 48%;
+    height: 100%;
+}
+.right-side-service{
+    display: flex;
+    flex-direction: column;
+}
+.right-side-service span {
+   /* background: url(../img/link-arrow.png) no-repeat 100% 50%;*/
+   color: #373839;
+}
+.emailForm{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1140px){
+    .contactForm{
+        width: 100%;
+        height: 900px;
+    } 
+    .emailForm{
+        width: 100%;
+    }
+    .serviceSidebar{
+        width: 80%;
+        
+    }   
+}
+
+@media screen and (max-width: 900px)
+{
+    .servicesSection{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }   
+    .servicesForm{
+        width: 100%;
+        height: 900px;
+        
+    }
+    .servicesContent{
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .emailForm{
+        width: 80%;
+    }
+    .serviceSidebar{
+        width: 100%;
+        margin: 0px;
+    }
+
+}
+@media screen and (max-width: 991px)
+{
+    .servicesSection{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }   
+    .servicesForm{
+        width: 100%;
+        height: 1150px;
+        
+    }
+    .servicesContent{
+        width: 100%;
+    }
+    .emailForm{
+        width: 100%;
+    }
+    .serviceSidebar{
+        width: 100%;
+        margin: 0px;
+    }
+    .servicesIntro{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

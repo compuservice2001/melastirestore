@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dropdown Menu Responsive</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" href="css/homerestoreStyles.css">
+        <link rel="stylesheet" href="css/emailForm.css">
+        <script src="https://kit.fontawesome.com/4559b9e776.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <!-- header start -->
+    <header class="header">
+        <div class="header-main">
+            <div class="logotext">
+                <div class="logoWrapper" style="display:flex; align-items: center;" >
+                    <div class="logo">
+                        <img src="img/LOGO-MELASTI.svg" alt="">
+                    </div>
+                    <div class="servicesText">
+                        <li>Home Renovation</li>
+                        <li>Kitchen Remodeling</li>
+                        <li>Bathroom Remodeling</li>
+                    </div>
+                </div>   
+                <div class="open-nav-menu">
+                    <span></span>
+                </div>
+                <div class="menu-overlay">
+                </div>
+            </div>
+            <div class="colunmleftContent">
+                <div class="infoBar">
+                        <div class="phone">
+                            <a href="tel:904-439-1315">904-439-1315</a>
+                        <ul>
+                            <li><a id="rContactLink" href="/contact-us" class="btn btn-blue">CONTACT US</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- navigation menu start -->
+                <nav class="nav-menu">
+                    <div class="close-nav-menu">
+                        <img src="img/close.svg" alt="close">
+                    </div>
+                    <!--<div class="home-icon">
+                        <a href=""><i class="fa-solid fa-house"></i></a>
+                        </div>-->
+                    <ul class="menu">
+                        <li class="menu-item"><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                            <li class="menu-item menu-item-has-children">
+                            <a href="#" data-toggle="sub-menu"><i class="fa-solid fa-trowel-bricks" style="letter-spacing: 8px;"></i>Remodeling Services<i class="plus"></i></a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="homerestore.html">Home Renovation</a></li>
+                                <li class="menu-item"><a href="kitchenrestore.html">Kitchen Remodeling</a></li>
+                                <li class="menu-item"><a href="bathroomrestore.html">Bathroom Remodeling</a></li>
+                                </ul>
+                        </li>
+                        <li class="menu-item"><a href="about.html"><i class="fa-solid fa-address-book"></i> About</a></li>
+                        <li class="menu-item"><a href="gallery.html"><i class="fa-solid fa-camera"></i> Gallery</a></li>
+                        <li class="menu-item"><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- navigation menu end -->
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+
+<!--CONTACT START HERE------------------------------------------------------------->
+    <div class="servicesContenedor">
+        <div class="contactBannerAbout">
+            <div class="titleService">
+                <h1>About Us</h1>
+            </div>
+        </div>
+    </div>
+    <div class="servicesIntro">
+        <h1 align="center">MELASTI® - Work with Tradition.</h1>&nbsp
+        <p align="center">We provide professional service at a fair price, we repair, replace & do custom work, we specialize in tile work, remodel bathrooms & kitchens is our passion, started from years of working in the industry.
+            I also obtained my knowledge and mastered remodeling services, from my dad company who built kitchen and bath for 23 years in Orlando Florida, call Master Stone Plus.
+            I love to see my customers face when we update & create new experience in there homes.</p>
+    </div>
+    <section class="servicesSection">
+        <div class="servicesContent">
+            <h1>Our Goal is Quality.</h1>
+            <hr>
+            <p>We take pride in our work & treat everyone's home as if it were ours, we take great care of everyone's furniture & personal items, we take our time to make sure everything get done right.
+                We try to exceed customers expectations, so they can recommend us for futures jobs.
+                For family, friends & happily spread the world that MELASTI RESTORE & REMODELING is the go to company.
+                Also we provide, irrigation service & outdoor lighting with more then 15 years of experience.</p> &nbsp
+            <hr>
+            
+            <div class="homePicture">
+            <img src="img/Melasti/20201031_091150.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="serviceSidebar" style="text-align: center;">
+            
+        
+
+        <div class="emailForm">
+        <form class="my-form">
+            <div class="containerForm">
+              <h2 align="center" style=" color: rgb(255, 255, 255); "  >CONTACT US - WE'LL GET BACK TO YOU QUICKLY!</h2>
+              <ul>
+                <li>
+                  <select>
+                    <option selected disabled>-- Please choose an option --</option>
+                    <option>Request Quote</option>
+                    <option>Other</option>      
+                  </select>
+                </li>
+                <li>
+                  <div class="grid grid-2">
+                    <input type="text" placeholder="Name" required>  
+                    <input type="text" placeholder="Surname" required>
+                  </div>
+                </li>
+                <li>
+                  <div class="grid grid-2">
+                    <input type="email" placeholder="Email" required>  
+                    <input type="tel" placeholder="Phone">
+                  </div>
+                </li>    
+                <li>
+                  <textarea placeholder="Message"></textarea>
+                </li>   
+                <li>
+                  <input type="checkbox" id="terms">
+                  <label for="terms">I have read and agreed with <a href="">the terms and conditions.</a></label>
+                </li>  
+                <li>
+                  <div class="grid grid-3">
+                    <div class="required-msg">REQUIRED FIELDS</div>
+                    <button class="btn-grid" type="submit" disabled>
+                      <span class="back">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+                      </span>
+                      <span class="front">SUBMIT</span>
+                    </button>
+                    <button class="btn-grid" type="reset" disabled>
+                      <span class="back">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+                      </span>
+                      <span class="front">RESET</span>
+                    </button> 
+                  </div>
+                </li>    
+              </ul>
+            </div>
+        </form>
+        </div>
+    </div>
+    </section>
+
+
+
+
+
+     <!--FOOTER START HERE------------------------------------------------------------->
+ <div class="footer" id="footer">
+    <div class="footerContainer">
+        <footer class="main-footer">
+            <div class="footer__section">
+                <h2 class="footer__title">Melasti Restore & Remodeling</h2>
+                <p class="footer__txt"> Remodeling Services:</p>
+                <a href="homerestore.html" class="footer__link">Home Renovation</a>
+                <a href="kitchenrestore.html" class="footer__link">Kitchen Remodeling</a>
+                <a href="bathroomrestore.html" class="footer__link">Bathroom Remodeling</a>
+            </div>
+            <div class="footer__section">
+                <h2 class="footer__title">Location :</h2>
+                <p class="footer__txt">12585 Belmont Lakes Dr Jacksonville, Florida 32225, EE.UU.</p>
+                <h2 class="footer__title">Contact</h2>
+                <p class="footer__txt">Phone : +1 904 439 1335</p>
+                <p class="footer__txt">Email : melastirestorefl@hotmail.com</p>
+            </div>
+            <div class="footer__section">
+                <h2 class="footer__title">Quick Links</h2>
+                <a href="index.html" class="footer__link">Home</a>
+                <a href="about.html" class="footer__link">About</a>
+                <a href="#" class="footer__link">Services</a>
+                <a href="gallery.html" class="footer__link">Gallery</a>
+                <a href="contact.html" class="footer__link">Contact Us</a>
+            </div>
+            <div class="footer__section">
+                <h2 class="footer__title">Sign up for your offers</h2>
+                <p class="footer__txt">By subscribing to our mailing list you will always get latest news and updates from us.</p>
+                <input type="email" class="footer__input" placeholder="Enter your email">
+            </div>
+            <p class="copy">© 2022 Melastirestore.com. All Rights Reserved | Design by Compuservice</p>
+        </footer>
+    </div>    
+ </div>  
+  <!--FOOTER END HERE--------------------------------------------------------------->
+
+    <script src="js/emailForm.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dropdown Menu Responsive</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" href="css/contactStyles.css">
+        <link rel="stylesheet" href="css/emailForm.css">
+        <script src="https://kit.fontawesome.com/4559b9e776.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <!-- header start -->
+    <header class="header">
+        <div class="header-main">
+            <div class="logotext">
+                <div class="logoWrapper" style="display:flex; align-items: center;" >
+                    <div class="logo">
+                        <img src="img/LOGO-MELASTI.svg" alt="">
+                    </div>
+                    <div class="servicesText">
+                        <li>Home Renovation</li>
+                        <li>Kitchen Remodeling</li>
+                        <li>Bathroom Remodeling</li>
+                    </div>
+                </div>   
+                <div class="open-nav-menu">
+                    <span></span>
+                </div>
+                <div class="menu-overlay">
+                </div>
+            </div>
+            <div class="colunmleftContent">
+                <div class="infoBar">
+                        <div class="phone">
+                            <a href="tel:904-439-1315">904-439-1315</a>
+                        <ul>
+                            <li><a id="rContactLink" href="/contact-us" class="btn btn-blue">CONTACT US</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- navigation menu start -->
+                <nav class="nav-menu">
+                    <div class="close-nav-menu">
+                        <img src="img/close.svg" alt="close">
+                    </div>
+                    <!--<div class="home-icon">
+                        <a href=""><i class="fa-solid fa-house"></i></a>
+                        </div>-->
+                    <ul class="menu">
+                        <li class="menu-item"><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                            <li class="menu-item menu-item-has-children">
+                            <a href="#" data-toggle="sub-menu"><i class="fa-solid fa-trowel-bricks" style="letter-spacing: 8px;"></i>Remodeling Services<i class="plus"></i></a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="homerestore.html">Home Renovation</a></li>
+                                <li class="menu-item"><a href="kitchenrestore.html">Kitchen Remodeling</a></li>
+                                <li class="menu-item"><a href="bathroomrestore.html">Bathroom Remodeling</a></li>
+                                </ul>
+                        </li>
+                        <li class="menu-item"><a href="about.html"><i class="fa-solid fa-address-book"></i> About</a></li>
+                        <li class="menu-item"><a href="gallery.html"><i class="fa-solid fa-camera"></i> Gallery</a></li>
+                        <li class="menu-item activado"><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- navigation menu end -->
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+
+<!--CONTACT START HERE------------------------------------------------------------->
+    <div class="contactContenedor">
+        <div class="contactBanner">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27552.68820791291!2d-81.49547836240707!3d30.32007081245513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e44b735b5ad2f1%3A0xb9891ed9c7b9bd15!2s12585%20Belmont%20Lakes%20Dr%2C%20Jacksonville%2C%20FL%2032225%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1653930883360!5m2!1ses!2sco" width="100%" height="450" style="border:0; margin-top: 140px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <section class="contactSection">
+        <div class="contactContent">
+            <h1 style="font-size: 2.2em;">Contact Us</h1>
+            <hr>
+            <p>At Melasti, we know that not all home remodelers are created equally, and we stand out from the crowd with our company-wide commitment to doing what’s right for every project that we take on. From interior remodeling to full exterior upgrades, we deliver consistent communication, professional service, and lifetime warranties to ensure that you are completely satisfied with your investment.</p> &nbsp
+            <hr>
+            <h2>Melasti</h2>
+            <p>12585 Belmont Lakes Dr</p>
+            <p>Jacksonville, Florida 32225,</p>
+            <p>EE.UU.</p>
+            <hr>
+            <h2>E-mail</h2>  &nbsp
+            <p>Melastirestorefl@hotmail.com</p>
+            <hr>
+            <h2>Customer Support</h2>  &nbsp
+            <p>904 439 1335</p>
+            
+
+        </div>
+        <div class="emailForm">
+        <form class="my-form">
+            <div class="containerForm">
+              <h2 align="center" style=" color: rgb(255, 255, 255); "  >CONTACT US - WE'LL GET BACK TO YOU QUICKLY!</h2>
+              <ul>
+                <li>
+                  <select>
+                    <option selected disabled>-- Please choose an option --</option>
+                    <option>Request Quote</option>
+                    <option>Other</option>      
+                  </select>
+                </li>
+                <li>
+                  <div class="grid grid-2">
+                    <input type="text" placeholder="Name" required>  
+                    <input type="text" placeholder="Surname" required>
+                  </div>
+                </li>
+                <li>
+                  <div class="grid grid-2">
+                    <input type="email" placeholder="Email" required>  
+                    <input type="tel" placeholder="Phone">
+                  </div>
+                </li>    
+                <li>
+                  <textarea placeholder="Message"></textarea>
+                </li>   
+                <li>
+                  <input type="checkbox" id="terms">
+                  <label for="terms">I have read and agreed with <a href="">the terms and conditions.</a></label>
+                </li>  
+                <li>
+                  <div class="grid grid-3">
+                    <div class="required-msg">REQUIRED FIELDS</div>
+                    <button class="btn-grid" type="submit" disabled>
+                      <span class="back">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+                      </span>
+                      <span class="front">SUBMIT</span>
+                    </button>
+                    <button class="btn-grid" type="reset" disabled>
+                      <span class="back">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+                      </span>
+                      <span class="front">RESET</span>
+                    </button> 
+                  </div>
+                </li>    
+              </ul>
+            </div>
+        </form>
+        </div>
+    </section>
+
+
+
+
+
+     <!--FOOTER START HERE------------------------------------------------------------->
+ <div class="footer" id="footer">
+    <div class="footerContainer">
+        <footer class="main-footer">
+            <div class="footer__section">
+                <h2 class="footer__title">Melasti Restore & Remodeling</h2>
+                <p class="footer__txt"> Remodeling Services:</p>
+                <a href="homerestore.html" class="footer__link">Home Renovation</a>
+                <a href="kitchenrestore.html" class="footer__link">Kitchen Remodeling</a>
+                <a href="bathroomrestore.html" class="footer__link">Bathroom Remodeling</a>
+            </div>
+            <div class="footer__section">
+                <h2 class="footer__title">Location :</h2>
+                <p class="footer__txt">12585 Belmont Lakes Dr Jacksonville, Florida 32225, EE.UU.</p>
+                <h2 class="footer__title">Contact</h2>
+                <p class="footer__txt">Phone : +1 904 439 1335</p>
+                <p class="footer__txt">Email : melastirestorefl@hotmail.com</p>
+            </div>
+            <div class="footer__section">
+                <h2 class="footer__title">Quick Links</h2>
+                <a href="index.html" class="footer__link">Home</a>
+                <a href="about.html" class="footer__link">About</a>
+                <a href="#" class="footer__link">Services</a>
+                <a href="gallery.html" class="footer__link">Gallery</a>
+                <a href="contact.html" class="footer__link">Contact Us</a>
+            </div>
+            <div class="footer__section">
+                <h2 class="footer__title">Sign up for your offers</h2>
+                <p class="footer__txt">By subscribing to our mailing list you will always get latest news and updates from us.</p>
+                <input type="email" class="footer__input" placeholder="Enter your email">
+            </div>
+            <p class="copy">© 2022 Melastirestore.com. All Rights Reserved | Design by Compuservice</p>
+        </footer>
+    </div>    
+ </div>  
+  <!--FOOTER END HERE--------------------------------------------------------------->
+
+    <script src="js/emailForm.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

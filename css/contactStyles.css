@@ -1,0 +1,85 @@
+/****************************CONTACT STYLES STYLES HTML START HERE***********************/
+.contactSection{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+.contactContent{
+    width: 45%;
+}
+.contactSection hr{
+    display: block;
+    background-color: #e43a47;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+.contactForm{
+    width: 48%;
+    height: 1150px;
+    background: url(../img/baño.jpg);
+}
+.contactSection .ifemailForm{
+    width: 100%;
+    height: 100%;
+}
+.emailForm{
+    width: 45%;
+}
+
+@media screen and (max-width: 1140px){
+    .contactForm{
+        width: 100%;
+        height: 900px;
+    } 
+    .emailForm{
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 1024px)
+{
+    .contactSection{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }   
+    .contactForm{
+        width: 100%;
+        height: 900px;
+        
+    }
+    .contactContent{
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .emailForm{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 991px)
+{
+    .contactSection{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }   
+    .contactForm{
+        width: 100%;
+        height: 1150px;
+        
+    }
+    .contactContent{
+        width: 100%;
+    }
+    .emailForm{
+        width: 100%;
+    }
+}

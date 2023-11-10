@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <script src="https://kit.fontawesome.com/4559b9e776.js" crossorigin="anonymous"></script>
+
+
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    
+
+    <!-- Demo styles -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');  
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body{
+        background: #eee;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: rgb(122, 0, 0);
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/slide_03-4.jpg);
+    background-position: center left;
+  
+          }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: rgb(0, 52, 31);
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+      .swiper-slide p {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+      }
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .contenido{
+    width: 100%;    
+    padding: 50px;
+ /*   background: #dbe7e2b7;*/
+ /*   box-shadow: 0px 5px 15px rgb(180, 180, 180);*/
+    align-self: center;   
+      }
+.contenido a{
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+    </style>
+  </head>
+
+  <body>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="contenido wow animate__fadeInLeftBig" data-wow-duration="3s" align="center">
+                <h2 style=" color: rgb(255, 255, 255);">Sarah Gibbs</h2>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <a href=""><i class="fa-solid fa-star"></i></a>    
+                <p>
+                  " Mauricio was very professional. He communicated often. The communication was superb, he kept me informed daily of the progress. The work site was always cleaned up and they made sure all the path to the bathroom was covered. I reviewed many companies before we chose MELASTI, and they were reasonably priced."
+                </p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="contenido wow animate__fadeInLeftBig" data-wow-duration="3s" align="center">
+                <h2 style=" color: rgb(255, 255, 255);">Nancy Lauerman</h2>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <p>
+                  "Master bath turned out incredible. Great folks to work with. Truly customer centered. Working with Julie, the designer that works with them was also a pleasure."
+                </p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="contenido wow animate__fadeInLeftBig" data-wow-duration="3s" align="center">
+                <h2 style=" color: rgb(255, 255, 255);">Gary Ballam</h2>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <p>
+                   "Mauricio and his team were great to work with! They were professional, friendly, and had great communication. Our bathroom remodel looks great! My son loves it so much he has asked to take multiple showers a day. We highly recommend Melasti!"
+                </p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="contenido wow animate__fadeInLeftBig" data-wow-duration="3s" align="center">
+                <h2 style=" color: rgb(255, 255, 255);">Heather Schoneman</h2>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <a href=""><i class="fa-solid fa-star"></i></a>
+                <p>
+                    "Our experience working with Mauricio was 100% positive. He does an outstanding job of communicating throughout the project, his employees all do a great job and were respectful of our home, and we received high-quality results at a reasonable price. I would definitely work with them again, and I highly recommend this company!"
+                </p>
+            </div>
+        </div>
+      
+      </div>
+
+      <div class="swiper-button-next" style="color:aliceblue; font-size:30px !important;"></div>
+      <div class="swiper-button-prev" style="color:aliceblue; font-size: 30px !important; "></div>
+      <div class="swiper-pagination" style="color:aliceblue"></div>
+      
+         </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "progressbar",
+        },
+          autoplay: {
+          delay: 14500,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
